@@ -1,0 +1,56 @@
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.box1 {
+    width: 100%;
+    height:150px;
+    background-color: blue;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2__col1 {
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+
+.box2__col1__a {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+
+.box2__col1__b {
+    width: 100%;
+    height: 50%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+}
+
+.box2__col1__b__1 {
+    width: 50%;
+    height: 100%;
+    background-color: coral;
+}
+
+.box2__col1__b__2 {
+    width: 50%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.box2__col2 {
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+}
